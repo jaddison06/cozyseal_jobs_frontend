@@ -81,7 +81,8 @@ class Job {
 
       hint = itemsRaw[i]['hint'];
       var choicesRaw = itemsRaw[i]['choices'];
-      var current = itemsRaw[i]['result']['value'];
+      // we want to initialize everything with a string, they'll give back an int regardless
+      var current = itemsRaw[i]['result']['value'].toString();
       Map<String, String> imageNames = (type == SurveyItemType.imageChoice) ? Map<String, String>() : null;
 
       if (choicesRaw != null) {
