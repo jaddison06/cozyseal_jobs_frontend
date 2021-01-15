@@ -1,4 +1,3 @@
-import 'package:flutter/rendering.dart';
 import 'package:http/http.dart';
 import 'package:http/io_client.dart';
 
@@ -14,8 +13,6 @@ class Database {
   // TODO: make const for final build
   static String SERVER = 'https://192.168.1.13';
   static int PORT = 5000;
-
-  // TODO: image asset paths
 
   IOClient _ioClient;
 

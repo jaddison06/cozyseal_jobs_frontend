@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'cozysealTextInput.dart';
 import 'dart:developer' as developer;
 
-// TODO: can initialise with value
-
 // ------------------ SURVEY ITEMS: BOILERPLATE ------------------
 
 // public so we can make a list of them
